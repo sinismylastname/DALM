@@ -35,3 +35,5 @@ So yeah, pretty nifty project. I love Deadlock. And hardware. And coding. And Vy
 **Problem Solved! Right..?**
 
 - OBVIOUSLY not. Now, I have to actually build the mod, taking inspiration from Lovelock along the way.
+- (Note: As I write this, I realize there is another Deadlock hardware mod called DeadlockShock. I uh, I'm using that as my reference. Sorry not sorry, Lovelock.)
+
