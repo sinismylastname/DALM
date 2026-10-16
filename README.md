@@ -17,7 +17,21 @@ So yeah, pretty nifty project. I love Deadlock. And hardware. And coding. And Vy
 
 ### The Process:
 
-1. So, I started off with just the basic GitHub empty repo (with a README) and git cloning that into a folder onto my laptop.
-2. I then installed the PlatformIO extension and watched a video on how to set up a project (I didn't need the video). For this project, I will be using an Arduino Uno, but I prefer an ESP32 (Sigh... money).
-   <img src="./READMEimages/PlatformIOHomePage.png" width="70%" alt="Image depicting the PlatformIO Home Page">
-3. [INSERT MORE WHEN YOU WORK MORE]
+- So, I started off with just the basic GitHub empty repo (with a README) and git cloning that into a folder onto my laptop.
+- I then installed the PlatformIO extension and watched a video on how to set up a project (I didn't need the video). For this project, I will be using an Arduino Uno, but I prefer an ESP32 (Sigh... money):
+
+  <img src="./READMEimages/PlatformIOHomePage.png" width="70%" alt="Image depicting the PlatformIO Home Page">
+
+- Then, I realized a couple of issues:
+  - Wait a minute, how am I supposed to do a mod like this?
+  - A VAST, VAST majority of mods on Deadlock are cosmetic mods that replace the models in-game, so they don't mess with UI at all.
+  - Even the ones that do modify UI do it cosmetically.
+
+**Then, I stumbled upon _it._**
+
+- One of the most cursed mods to ever bless the Deadlock fandom: Lovelock. What this accursed mod does is connect your Deadlock gampeplay to.. uhm... **_toys..._** and makes things happen whenever a major event happens in game.
+- Despite the unconventional mod, it was perfect for me because it listened to events in game and gave "physical" feedback.
+
+**Problem Solved! Right..?**
+
+- OBVIOUSLY not. Now, I have to actually build the mod, taking inspiration from Lovelock along the way.
