@@ -15,7 +15,7 @@ This solves a pretty niche problem for me:
 
 So yeah, pretty nifty project. I love Deadlock. And hardware. And coding. And Vyper (Vyper mentioned?).
 
-### The Process:
+### The Beginning Process:
 
 - So, I started off with just the basic GitHub empty repo (with a README) and git cloning that into a folder onto my laptop.
 - I then installed the PlatformIO extension and watched a video on how to set up a project (I didn't need the video). For this project, I will be using an Arduino Uno, but I prefer an ESP32 (Sigh... money):
@@ -37,3 +37,6 @@ So yeah, pretty nifty project. I love Deadlock. And hardware. And coding. And Vy
 - OBVIOUSLY not. Now, I have to actually build the mod, taking inspiration from Lovelock along the way.
 - (Note: As I write this, I realize there is another Deadlock hardware mod called DeadlockShock. I uh, I'm using that as my reference. Sorry not sorry, Lovelock.)
 
+### Mod Development:
+
+- I started off with some Javascript (shudders)
