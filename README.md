@@ -39,4 +39,8 @@ So yeah, pretty nifty project. I love Deadlock. And hardware. And coding. And Vy
 
 ### Mod Development:
 
-- I started off with some Javascript (shudders)
+- I began looking at the reference mod (DeadlockShock) and how it detected ability states in game and how it searched for them.
+- It turns out that Deadlock uses something called "Panorama", which is Valve's UI framework, and it functions similarly to web development.
+- It was surprising that Panorama used Javascript, and so it gave me somewhere to start.
+- I used what I learned from my Data Structures class and began all my functions (and my development) with a design recipe, and the first thing I wanted to do was to be able to change states and check for ability readiness and whatnot, thus the changeAbilityState()
+-
