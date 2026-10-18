@@ -47,6 +47,7 @@ function changeAbilityState(abilityName, newState) {
 
   if (previousState === null) {
     currentState[abilityName] = newState;
+
     return;
   }
 

@@ -35,12 +35,13 @@ So yeah, pretty nifty project. I love Deadlock. And hardware. And coding. And Vy
 **Problem Solved! Right..?**
 
 - OBVIOUSLY not. Now, I have to actually build the mod, taking inspiration from Lovelock along the way.
-- (Note: As I write this, I realize there is another Deadlock hardware mod called DeadlockShock. I uh, I'm using that as my reference. Sorry not sorry, Lovelock.)
+- (Note: As I write this, I realize there is another Deadlock hardware mod called DeadlockShock. I uh, I'm using that as my reference. Sorry not sorry, Lovelock... not really.)
 
 ### Mod Development:
 
 - I began looking at the reference mod (DeadlockShock) and how it detected ability states in game and how it searched for them.
 - It turns out that Deadlock uses something called "Panorama", which is Valve's UI framework, and it functions similarly to web development.
 - It was surprising that Panorama used Javascript, and so it gave me somewhere to start.
-- I used what I learned from my Data Structures class and began all my functions (and my development) with a design recipe, and the first thing I wanted to do was to be able to change states and check for ability readiness and whatnot, thus the changeAbilityState()
--
+- I used what I learned from my Data Structures class and began all my functions (and my development) with a design recipe, and the first thing I wanted to do was to be able to change states and check for ability readiness and whatnot, thus the functions I developed in abilityTracker.js.
+- Now that I coded up my abilityTracker.js, the last thing to do was to test it.
+- To do this, I had to install Reduced CSDK 12, which is the toolchain to build my mod.
