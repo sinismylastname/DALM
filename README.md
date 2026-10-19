@@ -11,7 +11,7 @@ This solves a pretty niche problem for me:
 1. I'm lowkey blind and I can't see when my abilities go off cooldown
 2. All the stuff happening on screen makes it so that my brain is fried by all the OTHER sensory inputs (i.e concentrating on aiming, sensation of mousepad, sensation of arm on keyboard, sensation of fingers touching mousepad, the tons of things I have to dodge, listening for sounds/sound cues, keeping track of my health and stamina AND bullets [so I don't reload at a bad time])
 
-[INSERT DEADLOCK GAME IMAGE HERE]
+![alt text](./READMEimages/deadmanDanny.png)
 
 So yeah, pretty nifty project. I love Deadlock. And hardware. And coding. And Vyper (Vyper mentioned?).
 
@@ -45,3 +45,10 @@ So yeah, pretty nifty project. I love Deadlock. And hardware. And coding. And Vy
 - I used what I learned from my Data Structures class and began all my functions (and my development) with a design recipe, and the first thing I wanted to do was to be able to change states and check for ability readiness and whatnot, thus the functions I developed in abilityTracker.js.
 - Now that I coded up my abilityTracker.js, the last thing to do was to test it.
 - To do this, I had to install Reduced CSDK 12, which is the toolchain to build my mod.
+- With a little help from GPT,  it took me a solid 2-3 hours to even figure out how to use this thing. 
+- But, I figured out how to structure my mod, compile it, and turn it into a VPK, and then used that VPK for my Grimoire Mod Manager for easier mod testing.
+- After iterating slightly and making some changes (i.e console.log ==> $.Msg) ability state tracking WORKED! I could see it in the console!
+![A picture depicting a console with the mod logging](./READMEimages/console.png)
+- Now, it's hardware time......
+
+#### Hardware!
